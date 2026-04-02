@@ -9,12 +9,12 @@
 ```
 ┌─────────────────┐        WiFi (HTTP)       ┌──────────────────────┐
 │  Android Phone  │ ──────────────────────►  │  Arduino Uno R4 WiFi │
-│  (IP Webcam app)│                           │  + 16×2 LCD (I2C)    │
-└────────┬────────┘                           └──────────────────────┘
+│  (IP Webcam app)│                          │  + 16×2 LCD (I2C)    │
+└────────┬────────┘                          └──────────────────────┘
          │ WiFi video stream
          ▼
 ┌─────────────────────────────────────────────┐
-│           PC / Laptop                        │
+│           PC / Laptop                       │
 │  Python 3 + OpenCV                          │
 │  • Reads camera feed                        │
 │  • Analyses ROI regions per parking slot    │
